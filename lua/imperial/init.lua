@@ -1,4 +1,4 @@
-local utils = require 'yugen.utils'
+local utils = require 'imperial.utils'
 
 local M = {}
 
@@ -69,9 +69,9 @@ function M.colorscheme()
   end
 
   vim.opt.termguicolors = true
-  vim.g.colors_name = 'yugen'
+  vim.g.colors_name = 'imperial'
 
-  local theme = require('yugen.theme').get(config)
+  local theme = require('imperial.theme').get(config)
 
   for group, color in pairs(theme) do
     if config.highlight_groups[group] == nil then
