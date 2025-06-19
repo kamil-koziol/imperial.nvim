@@ -15,7 +15,7 @@ function M.get(config)
       or styles.background
 
   theme = {
-    ColorColumn = { bg = p.placeholder },
+    ColorColumn = { bg = p.color700 },
     Conceal = { fg = p.color200, bg = p.none },
     CurSearch = { link = 'IncSearch' },
     Cursor = { fg = p.color200, bg = p.placeholder },
